@@ -20,4 +20,4 @@ services:
       - MAX_BACKUPS=10
       - TIME_ZONE=America/Los_Angeles
     volumes:
-      - ./var:/srv/var
+      - ${PWD}:/srv/var
